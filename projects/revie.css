@@ -26,23 +26,26 @@ body {
         .container2{
             text-align: center;
             width: 1000px;
-            height: 300px;
+            height: 400px;
             border-radius: 30px;
             background-color: whitesmoke;
+           overflow: hidden;
         }
         .container3{
             text-align: center;
              width: 1000px;
-            height: 300px;
+            height: 400px;
             border-radius: 30px;
-            background-color: whitesmoke;
+            background-color: #f5f5f5;
+            overflow: hidden;
         }
         .container4{
             text-align: center;
              width: 1000px;
-            height: 300px;
+            height: 400px;
             border-radius: 30px;
             background-color: whitesmoke;
+            overflow: hidden;
             
           
         }
@@ -54,6 +57,7 @@ body {
             margin: 180px;
             position: relative;
             top: -140px;
+;
 
             padding: auto;
         }
@@ -71,4 +75,14 @@ body {
         }
         .Lo{
             font-size: 20px;
+        }
+        .icon{
+            height: 80px;
+            width: 90px;
+            background-color:aqua;
+            border-radius: 35%;
+            position: relative;
+            right: -265px;
+       
+            
         }
