@@ -1,0 +1,94 @@
+
+
+.main{
+    width:95%;
+    margin:40px auto;
+    display:flex;
+    background:white;
+    border-radius:20px;
+   
+}
+
+
+
+.tech{
+    width:260px;
+    background-color: blue;
+    padding:30px 20px;
+}
+
+.tech h3{
+    color:white;
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.bt{
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding:15px 18px;
+    margin-bottom:15px;
+    border-radius:10px;
+   
+}
+
+.bt i{
+    margin-right:10px;
+}
+
+
+.active{
+    background:white;
+    color:#003b7a;
+}
+
+
+
+.second{
+   flex:1;
+    padding:35px;
+}
+
+.second h1{
+    color:blue;
+    margin-bottom:35px;
+    font-size:35px;
+}
+
+.second h1 i{
+    margin-right:10px;
+}
+
+
+.frontend{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.icon{
+    background:#fff;
+    border:1px solid #e8e8e8;
+    border-radius:15px;
+    height:170px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+   
+}
+
+
+
+.icon i{
+    font-size:55px;
+    color:#0b5ed7;
+    margin-bottom:20px;
+}
+
+.icon p{
+    font-weight:600;
+}
