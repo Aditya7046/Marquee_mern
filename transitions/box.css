@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 250px;
+left: 700px;
+    background: linear-gradient(45deg, black, blue);
+    border-radius: 50%;
+
+    transition: transform 0.1s ease, box-shadow 0.5s ease;
+
+    animation: rotateGradient 0.004s linear infinite;
+}
+.box:hover{
+    transform: scale(4);
+    box-shadow: 0 0 70px blue;
+}
+
+@keyframes rotateGradient{
+    2%{
+        transform: rotate(5deg);
+    }
+
+    100%{
+        transform: rotate(360degrrrrr);
+    }
+}
+.dot{
+    width: 5px;
+color: black;
+font-size: 50px;
+}
